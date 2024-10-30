@@ -1,4 +1,4 @@
-from kivy.uix.video import Video
+seefrom kivy.uix.video import Video
 from kivy.uix.accordion import NumericProperty
 from kivy.uix.floatlayout import FloatLayout
 import sqlite3
@@ -58,7 +58,7 @@ ScreenManager:
     MDCard:
         orientation: "vertical"
         md_bg_color: .2, .4, .3, 1 
-        size_hint: None, None
+        size_hint: .5,.5
         size: "300dp", "400dp"
         pos_hint: {"center_x": 0.5, "center_y": 0.3}
         elevation: 10

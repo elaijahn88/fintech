@@ -59,7 +59,7 @@ ScreenManager:
         orientation: "vertical"
         md_bg_color: .2, .4, .3, 1 
         size_hint: .5,.5
-        size: "300dp", "400dp"
+        pos_hint:.2.3
         pos_hint: {"center_x": 0.5, "center_y": 0.3}
         elevation: 10
         padding: "20dp"
